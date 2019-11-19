@@ -28,9 +28,18 @@ premier temps.
 Ce README est particulièrement minimaliste pour décrire l'installation...
 
 
-# INSTALLER LES LIBRAIRIES NECESSAIRES
+# INSTALLER LES DEPENDANCES ET LIBRAIRIES NECESSAIRES
 
-Utilisation de Composer pour installer les dépendances.
+Hal utilise le langage PHP. Version supporté: 7.1
+
+Hal a besoin des composants suivants:
+- Base donnée: MySQL. Support possible de MariaDB mais pas encore testé.
+- Indexeur: SolR
+- Gestionnaire de librairies PHP: Composer
+- Serveur HTTP: Apache
+
+## Librairies PHP
+Composer pour installer les dépendances PHP.
 
 # CONFIGURER LES VIRTUAL HOSTS
 
@@ -182,6 +191,10 @@ et qu'il ait les accès en écriture
 * Jean-Baptiste Genicot
 * Theophane Kouchoanou
 * ...
+
+# CONTRIBUTEURS
+
+* Edouard Lafon <misc+hal@elafon.98.wf>
 
 # LICENCE
 
